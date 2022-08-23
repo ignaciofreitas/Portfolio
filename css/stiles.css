@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#linkedin{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .photo-conteiner {
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+header .data-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+header .data-conteiner p {
+    color: antiquewhite;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+header .photo-conteiner img {
+    width: 410px;
+    height: 340px;
+    border-radius: 50%;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#skills #skills-title {
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+#skills #iconos-skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0px 10px 0px;
+}
+
+#skills #iconos-skills img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+#sass {
+    filter: invert(34%) sepia(67%) saturate(2361%) hue-rotate(285deg) brightness(95%) contrast(92%);
+}
+
+#git{
+    filter: invert(88%) sepia(96%) saturate(5348%) hue-rotate(355deg) brightness(106%) contrast(110%);
+}
+
+#github{
+    filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(353deg) brightness(107%) contrast(103%);
+}
+
+#informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#title-accordion {
+    color: antiquewhite;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+#text-accordion {
+    color: antiquewhite;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+#links-proyectos {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links-proyectos div a img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
